@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonListLayout Renders correctly 1`] = `
+<div
+  className="pokemon__list"
+>
+  <PokemonCardLayout
+    abilities={Array []}
+    base_experience={101}
+    forms={Array []}
+    game_indices={Array []}
+    height={7}
+    held_items={Array []}
+    id={1}
+    is_default={true}
+    key="0"
+    location_area_encounters="url"
+    moves={Array []}
+    name="bulbasaur"
+    order={1}
+    past_types={Array []}
+    species="species"
+    sprites={
+      Object {
+        "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+        "other": Object {
+          "dream_world": Object {
+            "front_default": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
+          },
+        },
+      }
+    }
+    stats={Array []}
+    types={
+      Array [
+        Object {
+          "slot": 1,
+          "type": Object {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/",
+          },
+        },
+        Object {
+          "slot": 2,
+          "type": Object {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/",
+          },
+        },
+      ]
+    }
+    weight={69}
+  />
+</div>
+`;

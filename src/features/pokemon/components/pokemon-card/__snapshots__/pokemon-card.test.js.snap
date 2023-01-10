@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonCardLayout Renders correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__flex"
+  >
+    <div
+      className="card__image"
+    >
+      <img
+        className="card__pokemon__img"
+        src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
+      />
+    </div>
+  </div>
+  <div
+    className="card__background"
+  />
+  <div
+    className="card__line__img"
+  />
+  <div
+    className="card__body"
+  >
+    <p
+      className="card__name"
+    />
+  </div>
+</div>
+`;

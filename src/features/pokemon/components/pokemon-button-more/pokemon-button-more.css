@@ -1,0 +1,30 @@
+.load-more {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-block-start: 50px;
+  padding-block-end: 50px;
+}
+
+.button {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 20px;
+}
+
+.button:hover {
+  border-color: brown;
+  background: brown;
+  cursor: pointer;
+}
+
+.button:focus {
+  border-color: tomato;
+  background: tomato;
+}

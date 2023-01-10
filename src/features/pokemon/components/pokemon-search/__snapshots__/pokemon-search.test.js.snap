@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokemonSearchLayout Renders correctly 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="navbar-container"
+  >
+    <img
+      alt="pokeApiLogo"
+      className="logo"
+      src="poke_api_logo.png"
+    />
+    <form
+      className="searchBar"
+      onSubmit={[Function]}
+    >
+      <input
+        name="search"
+        onChange={[Function]}
+        placeholder="Buscador por nombre o número"
+      />
+      <button
+        type="submit"
+      >
+        Buscar
+      </button>
+    </form>
+  </div>
+</nav>
+`;
