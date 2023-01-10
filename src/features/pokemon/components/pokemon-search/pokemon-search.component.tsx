@@ -12,15 +12,19 @@ export const PokemonSearchComponent = () => {
   };
 
   const searchPokemon = async (e: any) => {
-    e.preventDefault();
-    if (text) {
-      const pokemon = await pokemonService.getPokemonByName(text);
-      setPokemon([pokemon]);
-    } else {
-      const page = await pokemonService.getPokemonPage();
-      const pokemon = await pokemonService.getAllPokemonByPage(page);
-      setNextPage(page.next);
-      setPokemon(pokemon);
+    try {
+      e.preventDefault();
+      if (text) {
+        const pokemon = await pokemonService.getPokemonByName(text);
+        setPokemon([pokemon]);
+      } else {
+        const page = await pokemonService.getPokemonPage();
+        const pokemon = await pokemonService.getAllPokemonByPage(page);
+        setNextPage(page.next);
+        setPokemon(pokemon);
+      }
+    } catch (error) {
+      alert("Pokemon no encontrado");
     }
   };
 

@@ -19,6 +19,7 @@ export const PokemonListComponent = () => {
       const pokemon = await pokemonService.getAllPokemonByPage(page);
       setNextPage(page.next);
       setPokemon(pokemon);
+      setError(false);
     } catch (error) {
       setError(true);
     } finally {

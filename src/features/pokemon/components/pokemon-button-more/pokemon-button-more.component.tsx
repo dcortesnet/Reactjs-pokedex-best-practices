@@ -20,6 +20,7 @@ export const PokemonButtonMoreComponent = () => {
         page
       );
       setPokemon(pokemon.concat(pokemonByPage));
+      setError(false);
     } catch (error) {
       setError(true);
     } finally {
