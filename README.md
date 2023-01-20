@@ -5,22 +5,22 @@ Repositorio de ejemplo básico con React y buenas prácticas. Las cuales se abor
 ## Instalación
 
 ```bash
-$ npm install
+$ yarn install
 ```
 ## Desarrollo
 
-Ejecutar `npm start` para un servidor de desarrollo. Navega a `http://localhost:3000/`.
+Ejecutar `yarn start` para un servidor de desarrollo. Navega a `http://localhost:3000/`.
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 ## Test
 
-Ejecuta `npm run test` para ejecutar las pruebas de todo el proyecto.
+Ejecuta `yarn run test` para ejecutar las pruebas de todo el proyecto.
 
 ```bash
-$ npm run test
+$ yarn run test
 ```
 ## Equipo
 
